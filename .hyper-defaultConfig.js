@@ -9,10 +9,10 @@ module.exports = {
     updateChannel: 'stable',
 
     // default font size in pixels for all tabs
-    fontSize: 13,
+    fontSize: 12,
 
     // font family with optional fallbacks
-    fontFamily: 'Monaco, Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
+    fontFamily: 'Menlo, "DejaVu Sans Mono", Consolas, "Lucida Console", monospace',
 
     // default font weight: 'normal' or 'bold'
     fontWeight: 'normal',
@@ -33,7 +33,7 @@ module.exports = {
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: '#c7c7c7',
+    foregroundColor: '#fff',
 
     // terminal background color
     // opacity is only supported on macOS
@@ -43,7 +43,7 @@ module.exports = {
     selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: 'rgba(248,28,229,0.8)',
+    borderColor: '#333',
 
     // custom CSS to embed in the main window
     css: '',
@@ -68,21 +68,21 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: '#000000',
-      red: '#EF4836',
-      green: '#5ffa68',
-      yellow: '#f1c40f',
-      blue: '#22A7F0',
-      magenta: '#cc00ff',
-      cyan: '#00ffff',
-      white: '#d0d0d0',
-      lightBlack: '#808080',
-      lightRed: '#ff6e67',
-      lightGreen: '#5ffa68',
-      lightYellow: '#fffc67',
-      lightBlue: '#22A7F0',
-      lightMagenta: '#cc00ff',
-      lightCyan: '#0CDBE4',
-      lightWhite: '#ffffff',
+      red: '#C51E14',
+      green: '#1DC121',
+      yellow: '#C7C329',
+      blue: '#0A2FC4',
+      magenta: '#C839C5',
+      cyan: '#20C5C6',
+      white: '#C7C7C7',
+      lightBlack: '#686868',
+      lightRed: '#FD6F6B',
+      lightGreen: '#67F86F',
+      lightYellow: '#FFFA72',
+      lightBlue: '#6A76FB',
+      lightMagenta: '#FD7CFC',
+      lightCyan: '#68FDFE',
+      lightWhite: '#FFFFFF',
     },
 
     // the shell to run when spawning a new session (i.e. /usr/local/bin/fish)
@@ -131,7 +131,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperminimal', 'hyperpower', 'hyper-transparent'],
+  plugins: [],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
