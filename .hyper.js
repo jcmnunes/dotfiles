@@ -33,17 +33,17 @@ module.exports = {
     cursorBlink: false,
 
     // color of the text
-    foregroundColor: '#c7c7c7',
+    foregroundColor: '#EEF8FB',
 
     // terminal background color
     // opacity is only supported on macOS
-    backgroundColor: '#000',
+    backgroundColor: '#21272F',
 
     // terminal selection color
     selectionColor: 'rgba(248,28,229,0.3)',
 
     // border color (window, tabs)
-    borderColor: 'rgba(248,28,229,0.8)',
+    borderColor: '#151515',
 
     // custom CSS to embed in the main window
     css: '',
@@ -68,20 +68,20 @@ module.exports = {
     // an array here instead of a color map object
     colors: {
       black: '#000000',
-      red: '#EF4836',
-      green: '#5ffa68',
-      yellow: '#f1c40f',
-      blue: '#22A7F0',
-      magenta: '#cc00ff',
-      cyan: '#00ffff',
-      white: '#d0d0d0',
-      lightBlack: '#808080',
-      lightRed: '#ff6e67',
-      lightGreen: '#5ffa68',
-      lightYellow: '#fffc67',
-      lightBlue: '#22A7F0',
-      lightMagenta: '#cc00ff',
-      lightCyan: '#0CDBE4',
+      red: '#F16574',
+      green: '#BCDA81',
+      yellow: '#FFCA57',
+      blue: '#8CA7D6',
+      magenta: '#BC91C2',
+      cyan: '#7CD2F1',
+      white: '#EEF8FB',
+      lightBlack: '#333B47',
+      lightRed: '#F16574',
+      lightGreen: '#BCDA81',
+      lightYellow: '#FFCA57',
+      lightBlue: '#8CA7D6',
+      lightMagenta: '#BC91C2',
+      lightCyan: '#7CD2F1',
       lightWhite: '#ffffff',
     },
 
@@ -131,7 +131,7 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: ['hyperminimal'],
+  plugins: [],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
